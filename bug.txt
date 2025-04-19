@@ -1,0 +1,1 @@
+Uncaught SyntaxError: The requested module '/node_modules/.vite/deps/react-force-graph.js?v=ecee8f13' does not provide an export named 'default' (at GraphScreen.tsx:2:8)
