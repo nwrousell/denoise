@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import SearchSeedScreen from './screens/SearchSeedScreen'
 import SearchResultsScreen from './screens/SearchResultsScreen'
-import GraphScreen from './screens/GraphScreen'
+// import GraphScreen from './screens/GraphScreen'
 import { ThemeProvider } from './context/ThemeContext'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<SearchSeedScreen />} />
                         <Route path="/search-results" element={<SearchResultsScreen />} />
-                        <Route path="/graph" element={<GraphScreen />} />
+                        {/* <Route path="/graph" element={<GraphScreen />} /> */}
                     </Routes>
                 </main>
             </div>
